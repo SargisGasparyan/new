@@ -1,0 +1,26 @@
+ul{
+    display: flex;
+}
+ul li{
+    color:black;
+    list-style: none;
+}
+ul li :hover {
+    background-color: white; 
+    color: red; 
+    border: 1px solid red;
+    border-radius: 2px;
+   } 
+
+
+.li{
+    margin-left: 40px;
+}
+
+ul li a{
+    text-decoration: none ;
+    color: black;
+}
+.menuCal{
+    margin-top: 100px;
+}

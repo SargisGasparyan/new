@@ -1,0 +1,33 @@
+.divStrel{
+    display: flex;
+    align-items: center;
+    color:black
+}
+.divStrel p{
+    position: relative;
+    color:black;
+    background-color: rgb(209, 206, 201);
+    border:1px solid rgb(172, 164, 164);
+    margin:10px;
+    width: 32px;
+    height: 32px;
+    z-index: 1;
+
+}
+.strel{
+    z-index: 999;
+    position:absolute;
+    top:30%;
+    left: 30%;
+}
+
+.div{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.txt{
+    color: black;
+   margin-left: 40%;
+}
